@@ -35,8 +35,8 @@ For each requirement, decide: **ML, agent, or neither?** Then build it.
 **Option A: local (Python 3.10+)**
 
 ```bash
-git clone <repo-url>
-cd talentsift-workshop
+git clone https://github.com/whyabhinay/msba-workshop-talentsift.git
+cd msba-workshop-talentsift
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter lab notebooks/01_build_challenge.ipynb
@@ -47,8 +47,8 @@ jupyter lab notebooks/01_build_challenge.ipynb
 Open a new Colab notebook and run:
 
 ```python
-!git clone <repo-url>
-%cd talentsift-workshop
+!git clone https://github.com/whyabhinay/msba-workshop-talentsift.git
+%cd msba-workshop-talentsift
 !pip install -q -r requirements.txt
 ```
 
@@ -80,7 +80,7 @@ The notebook loads the key for you. Test it with `print(ask_lumen("Hello!"))`. W
 ## What's in the repo
 
 ```
-talentsift-workshop/
+msba-workshop-talentsift/
 ├── README.md
 ├── PRD.md                          The brief: what to build and how it is judged
 ├── requirements.txt
